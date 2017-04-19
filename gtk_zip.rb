@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-$: << "../lib"
+require 'gtk'
+require 'zip'
 
 $VERBOSE = true
 
