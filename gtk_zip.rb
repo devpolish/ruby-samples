@@ -1,10 +1,5 @@
 #!/usr/bin/env ruby
-
-require 'gtk'
-require 'zip'
-
 $VERBOSE = true
-
 require 'gtk'
 require 'zip/zip'
 
