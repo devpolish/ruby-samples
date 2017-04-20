@@ -17,4 +17,4 @@ end
 #   => ['apple', 'kiwi']
 
 # Do you want to contribute?
-# https://github.com/nardonykolyszyn/iterable/
+# https://github.com/nardonykolyszyn/ruby-samples
