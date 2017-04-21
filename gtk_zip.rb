@@ -1,10 +1,14 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
 
 require 'gtk'
 require 'zip'
 
 $VERBOSE = true
 
+=======
+$VERBOSE = true
+>>>>>>> 6378f31148716b7ef3f33c907636a40f8f065dc3
 require 'gtk'
 require 'zip/zip'
 
