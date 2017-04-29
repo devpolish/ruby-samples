@@ -15,10 +15,3 @@ end
 #   => [3,4]
 # ['apple', 'watermelon', 'banana', 'kiwi'].filter {|fruit| fruit.length >= 6}
 #   => ['apple', 'kiwi']
-
-# Do you want to contribute?
-<<<<<<< HEAD
-# https://github.com/nardonykolyszyn/iterable/
-=======
-# https://github.com/nardonykolyszyn/ruby-samples
->>>>>>> 6378f31148716b7ef3f33c907636a40f8f065dc3
