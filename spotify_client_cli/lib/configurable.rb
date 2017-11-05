@@ -8,13 +8,5 @@
 #   api_key: API_KEY
 
 require 'selenium-webdriver'
-module WebBrowser
-  include Selenium
-  # Set your browser here
-  # Depending what browser is you will need the indicated web driver
-  # Firefox uses geckodriver
-  # Chrome uses chromedriver
-  # Opera also uses chromedriver depending of your version read more at https://stackoverflow.com/a/26813266
-  DRIVER = WebDriver.for :firefox
-  CONFIG = YAML.load_file('../config/credentials.yml')
-end
+require 'yaml'
+CONFIG = YAML.load_file('config/credentials.yml')
