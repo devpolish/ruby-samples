@@ -1,5 +1,4 @@
 require 'rspotify'
-require 'selenium-webdriver'
 RSpotify::authenticate(CLIENT_ID, API_KEY)
 # driver = Selenium::WebDriver.for :firefox
 artists = RSpotify::Artist.search(ARGV.join(' '))
